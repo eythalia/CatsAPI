@@ -1,6 +1,6 @@
 # 🎉 Building RESTful APIs with ASP.NET Core 8 🎉
-
-A simple API with three endpoints.A POST that receives a collection of cats from an external [API](https://thecatapi.com/) and returns those cats that were added on the database and two GET calls. One is to GET just one cat by its id and the other one is to retrieve many cats with paging support allowing also the users to add extra tag if they like.
+---
+## A simple API with three endpoints. The first is a **POST** endpoint (`/cats`) that receives a collection of cats from an external API ([The Cat API](https://thecatapi.com/)), adds them to the database, and returns the cats that were successfully added. The second is a **GET** endpoint (`/cats/{id}`) that retrieves a single cat by its ID. The third is another **GET** endpoint (`/cats`) that retrieves a paginated list of cats from the database, allowing users to include an additional custom tag for each cat if desired.
 ---
 
 ## 📌 Features 
@@ -9,7 +9,7 @@ A simple API with three endpoints.A POST that receives a collection of cats from
 ✅ **Entity Framework Core (EF Core)**<br />
 ✅ **Result pattern for error-handling**<br />
 ✅ **Docker Compose file included in order to run the API**<br />
-✅ **Unit Tests**__
+✅ **Unit Tests**<br />
 ✅ **Supports Swagger for API documentation**<br />
  
 
