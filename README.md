@@ -58,3 +58,5 @@
 |POST |/api/cats/fetch|
 |GET |/api/cats/{id}|
 |GET |/api/cats|
+
+![alt text](image.png)
