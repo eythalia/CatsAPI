@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatImageApi.API", "CatImageApi.API\CatImageApi.API.csproj", "{C3B7FD35-FD92-4AE8-AD89-3CD91D73E9BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatImageApi.Application", "CatImageApi.Application\CatImageApi.Application.csproj", "{C023BFC3-159E-4213-88F9-4B537135C8D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatImageApi.Domain", "CatImageApi.Domain\CatImageApi.Domain.csproj", "{499B8D47-201B-4297-A6C4-781871622DB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatImageApi.Infrastructure", "CatImageApi.Infrastructure\CatImageApi.Infrastructure.csproj", "{CC8A986D-DC8D-4D1D-BADB-669B1776CDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatImageApi.Tests", "CatImageApi.Tests\CatImageApi.Tests.csproj", "{16E2D990-E0EA-486E-A4D4-CC2D84A701A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3B7FD35-FD92-4AE8-AD89-3CD91D73E9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B7FD35-FD92-4AE8-AD89-3CD91D73E9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B7FD35-FD92-4AE8-AD89-3CD91D73E9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B7FD35-FD92-4AE8-AD89-3CD91D73E9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C023BFC3-159E-4213-88F9-4B537135C8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C023BFC3-159E-4213-88F9-4B537135C8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C023BFC3-159E-4213-88F9-4B537135C8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C023BFC3-159E-4213-88F9-4B537135C8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499B8D47-201B-4297-A6C4-781871622DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499B8D47-201B-4297-A6C4-781871622DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499B8D47-201B-4297-A6C4-781871622DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499B8D47-201B-4297-A6C4-781871622DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8A986D-DC8D-4D1D-BADB-669B1776CDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8A986D-DC8D-4D1D-BADB-669B1776CDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8A986D-DC8D-4D1D-BADB-669B1776CDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8A986D-DC8D-4D1D-BADB-669B1776CDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E2D990-E0EA-486E-A4D4-CC2D84A701A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E2D990-E0EA-486E-A4D4-CC2D84A701A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E2D990-E0EA-486E-A4D4-CC2D84A701A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E2D990-E0EA-486E-A4D4-CC2D84A701A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6C7A000-0230-4044-8C38-01997020AAD1}
+	EndGlobalSection
+EndGlobal
