@@ -1,6 +1,6 @@
 # 🎉 Cat API 🎉
 
-###### This API offers three endpoints. The first is a **POST** endpoint (`/cats`) that receives a collection of cats from an external API ([The Cat API](https://thecatapi.com/)), adds them to the database, and returns the cats that were successfully added. The second is a **GET** endpoint (`/cats/{id}`) that retrieves a single cat by its ID. The third is another **GET** endpoint (`/cats`) that retrieves a paginated list of cats from the database, allowing users to include an additional custom tag for each cat if desired.
+##### This API offers three endpoints. The first is a **POST** endpoint (`/cats`) that receives a collection of cats from an external API ([The Cat API](https://thecatapi.com/)), adds them to the database, and returns the cats that were successfully added. The second is a **GET** endpoint (`/cats/{id}`) that retrieves a single cat by its ID. The third is another **GET** endpoint (`/cats`) that retrieves a paginated list of cats from the database, allowing users to include an additional custom tag for each cat if desired.
 ---
 
 ## 📌 Features 
